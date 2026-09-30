@@ -1,0 +1,21 @@
+# THE BIRTHDAY LOOP - GENERATION PROMPTS
+# Series: Existential Horror Anthology
+# Total Shots: 6 | Duration: 30.0s
+
+Shot 01 (shot_01):
+Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion, Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater, Medium shot, 35mm lens, eye-level. Maya leaning over round birthday cake with single lit candle, pursing lips to blow air. Blurred friend silhouettes applauding softly on periphery. Overhead 40W tungsten bulb casting downward shadows. Warm amber glow on chin and oversized pastel-yellow knitted crewneck sweater.
+
+Shot 02 (shot_02):
+Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion, Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater, Low-angle wide shot, 28mm lens, Dutch tilt 12 degrees. Table perspective looking up at Maya straightening her posture. Friends frozen immobile mid-laugh, open mouths locked like wax mannequins. Ribbon of grey candle smoke motionless in mid-air. Overhead 40W bulb casts stark ink shadows beneath collarbones and oversized pastel-yellow knitted sweater.
+
+Shot 03 (shot_03):
+Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion, Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater, Frontal medium shot, 50mm lens, waist-height. Maya sits alone in the cone of overhead tungsten light. She holds a heavy stainless-steel cake knife, carving a disproportionately large slice of cake. Friends remain frozen in dark periphery. Her sharp chin tilts downward, eyes fixed on the glossy white frosting.
+
+Shot 04 (shot_04):
+Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion, Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater, Tight medium close-up, 85mm lens, slight high-angle Dutch tilt 8 degrees. Maya shoveling cake into her mouth with mechanical rapidity. Frosting smears across her cheek and lower lip. Tendons in her wrist and neck strain taut. Her wide eyes convey mounting horror while her jaw chews relentlessly without pausing.
+
+Shot 05 (shot_05):
+Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion, Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater, Extreme macro close-up, 100mm lens, low-angle. Focus racked to Maya's throat and strained jaw. Throat muscles bulge as a massive bolus of dense sponge is forced down esophagus. Upper lip glistens with cold sweat. Teeth grind audibly against silver fork. Yellow wool knitted collar stretched tight around neck.
+
+Shot 06 (shot_06):
+Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion, Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater, Medium shot, 35mm lens, eye-level. Matching Shot 01 composition. Maya gasps, hands suddenly resting empty on the table. The greasy empty platter instantly snaps into a fully reformed, pristine vanilla birthday cake with a single, brightly burning candle flame. Background friends unfreeze mid-laugh, clapping joyfully as if nothing happened.

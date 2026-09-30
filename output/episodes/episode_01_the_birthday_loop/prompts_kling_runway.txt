@@ -1,0 +1,20 @@
+# KLING / RUNWAY IMAGE-TO-VIDEO (I2V) MOTION PROMPTS - The Birthday Loop
+# Use maya_hero.png as character reference or feed initial keyframes.
+
+## Shot 01 [shot_01] Motion Prompt (Target Duration: 3.5s)
+Camera: Eye-level medium two-shot tracking subtly forward, 35mm prime lens. Slow camera push-in. Maya blows breath across candle flame. The flame quivers violently, bends horizontally, and snaps off into a thin rising curl of grey smoke. Friends' smiling expressions begin to freeze.
+
+## Shot 02 [shot_02] Motion Prompt (Target Duration: 4.0s)
+Camera: Low-angle Dutch tilt 12 degrees counter-clockwise from table surface looking up, 28mm wide-angle lens. Slow rotational drift around Maya. She slowly looks left and right in confusion; friends remain completely static, eyes unblinking, smoke ribbon suspended rigid like glass.
+
+## Shot 03 [shot_03] Motion Prompt (Target Duration: 5.5s)
+Camera: Waist-height frontal medium shot, camera locked on Maya, 50mm normal lens. Steady locked shot. Maya cuts deeply through the cake, lifting a huge slice onto a porcelain plate. She takes a preliminary bite from a fork, lips parting in brief, quiet satisfaction.
+
+## Shot 04 [shot_04] Motion Prompt (Target Duration: 5.5s)
+Camera: Slight high-angle tight medium close-up, Dutch tilt 8 degrees clockwise, 85mm telephoto portrait lens. Rapid, jerky camera micro-shake. Maya's hand moves autonomously, stabbing the fork into the cake and forcing mass into her mouth. Her jaw chews furiously, saliva glistening, eyes wide and desperate, attempting to pull her hand away but failing.
+
+## Shot 05 [shot_05] Motion Prompt (Target Duration: 6.0s)
+Camera: Low-angle extreme close-up of throat and lower jaw, canted 15 degrees, 100mm macro lens. Slow macro push on the throat. Esophageal muscles contract in an exaggerated, painful swallow. A single tear tracks through frosting on the jawline. Maya's lips shudder as her breath is squeezed out.
+
+## Shot 06 [shot_06] Motion Prompt (Target Duration: 5.5s)
+Camera: Eye-level medium shot matching Shot 01 framing exactly, 35mm prime lens. Maya's chest heaves in a desperate gasp. In a single frame flash, the cake reforms instantly with a dancing lit candle flame. Maya looks down in dawning, paralyzing horror as her lips begin to involuntarily purse again.

@@ -1,0 +1,339 @@
+{
+  "$schema_version": "2.0.0",
+  "episode_metadata": {
+    "episode_id": "episode_01_the_birthday_loop",
+    "series_title": "Existential Horror Anthology",
+    "episode_number": 1,
+    "episode_title": "The Birthday Loop",
+    "logline": "A girl wishes to keep her birthday cake to herself; time freezes, forcing her to eat it all alone until the final bite resets the cycle.",
+    "technical_specifications": {
+      "aspect_ratio": "16:9",
+      "resolution": "3840x2160",
+      "fps": 24,
+      "total_duration_seconds": 30.0,
+      "audio_sample_rate_hz": 48000,
+      "timecode_start": "01:00:00:00"
+    },
+    "narrative_engine": {
+      "spark": "Innocent micro-sin: Maya secretly wishes she did not have to share her birthday cake with anyone else.",
+      "malicious_grant": "Reality arrests: time freezes solid, chatter cuts into dead acoustic vacuum, candle smoke hardens in mid-air.",
+      "visceral_decay": "Indulgence turns to sensory torture: involuntary motor control forces rapid ingestion, enamel scraping metal fork, cold lard frosting congealing on tongue, throat muscles convulsing.",
+      "infinite_trap": "The final swallow triggers an instantaneous physical snap: plate cleans, whole unblemished cake and lit candle reform in a continuous cycle."
+    }
+  },
+  "anchors": {
+    "style_anchor": "Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion",
+    "character_anchor": "Maya, 18-year-old girl, sharp chin, untamed shoulder-length jet black hair, oversized pastel-yellow knitted crewneck sweater",
+    "environment_anchor": "Dim residential dining room, party streamers frozen mid-flutter, single 40W tungsten bulb hanging 3 feet overhead casting harsh downward shadows, paper birthday hats"
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "beat_number": 1,
+      "beat_name": "The Spark",
+      "engine_phase": "spark",
+      "timing": {
+        "start_seconds": 0.0,
+        "end_seconds": 3.5,
+        "duration_seconds": 3.5,
+        "timecode_in": "01:00:00:00",
+        "timecode_out": "01:00:03:12",
+        "frame_in": 0,
+        "frame_out": 84
+      },
+      "cinematography": {
+        "lens_focal_length": "35mm prime lens",
+        "camera_angle": "Eye-level medium two-shot tracking subtly forward",
+        "lighting_source": "Flickering warm orange candle flame 10 inches from chin, balanced by 40W tungsten bulb overhead",
+        "sensory_grounding": "Air rushing between pursed lips, tiny drop of saliva catching flame light, single curl of wax vapor"
+      },
+      "shot_variable": "Medium shot, 35mm lens, eye-level. Maya leaning over round birthday cake with single lit candle, pursing lips to blow air. Blurred friend silhouettes applauding softly on periphery. Overhead 40W tungsten bulb casting downward shadows. Warm amber glow on chin and oversized pastel-yellow knitted crewneck sweater.",
+      "motion_prompt": "Slow camera push-in. Maya blows breath across candle flame. The flame quivers violently, bends horizontally, and snaps off into a thin rising curl of grey smoke. Friends' smiling expressions begin to freeze.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_01_ambience",
+          "filename": "party_room_tone_chatter.wav",
+          "timestamp_seconds": 0.0,
+          "duration_seconds": 3.2,
+          "track_layer": "A1_Ambience",
+          "description": "Subdued residential party murmur, gentle clapping, two muffled laughs."
+        },
+        {
+          "cue_id": "cue_02_breath",
+          "filename": "candle_blow_exhale.wav",
+          "timestamp_seconds": 2.8,
+          "duration_seconds": 0.7,
+          "track_layer": "A2_Foley",
+          "description": "Focused exhale hiss through pursed lips, ending with candle wick fizzle."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Yellow",
+        "name": "Beat 01: Spark / Blow Candle",
+        "note": "Cut on flame extinction at 3.5s. Sound drops instantly to dead vacuum."
+      }
+    },
+    {
+      "shot_id": "shot_02",
+      "beat_number": 2,
+      "beat_name": "The Malicious Grant: Freeze",
+      "engine_phase": "grant",
+      "timing": {
+        "start_seconds": 3.5,
+        "end_seconds": 7.5,
+        "duration_seconds": 4.0,
+        "timecode_in": "01:00:03:12",
+        "timecode_out": "01:00:07:12",
+        "frame_in": 84,
+        "frame_out": 180
+      },
+      "cinematography": {
+        "lens_focal_length": "28mm wide-angle lens",
+        "camera_angle": "Low-angle Dutch tilt 12 degrees counter-clockwise from table surface looking up",
+        "lighting_source": "Cold desaturated tungsten overhead bulb, sharp hard-edged cast shadows on wall",
+        "sensory_grounding": "Candle smoke frozen rigid like spun glass, friend's eyelid caught half-blink, absolute acoustic pressure in eardrums"
+      },
+      "shot_variable": "Low-angle wide shot, 28mm lens, Dutch tilt 12 degrees. Table perspective looking up at Maya straightening her posture. Friends frozen immobile mid-laugh, open mouths locked like wax mannequins. Ribbon of grey candle smoke motionless in mid-air. Overhead 40W bulb casts stark ink shadows beneath collarbones and oversized pastel-yellow knitted sweater.",
+      "motion_prompt": "Slow rotational drift around Maya. She slowly looks left and right in confusion; friends remain completely static, eyes unblinking, smoke ribbon suspended rigid like glass.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_03_vacuum_cutoff",
+          "filename": "sudden_vacuum_airlock_cutoff.wav",
+          "timestamp_seconds": 3.5,
+          "duration_seconds": 1.2,
+          "track_layer": "A3_SFX",
+          "description": "Violent acoustic vacuum pop: room reverberation instantly disappears into total dead silence."
+        },
+        {
+          "cue_id": "cue_04_tinnitus_hum",
+          "filename": "high_ear_ring_sub_drone.wav",
+          "timestamp_seconds": 4.0,
+          "duration_seconds": 3.5,
+          "track_layer": "A1_Ambience",
+          "description": "Ultra-faint 14kHz ear-ring tone combined with 40Hz sub-bass pressure thrum."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Cyan",
+        "name": "Beat 02: Hard Vacuum / Freeze",
+        "note": "Zero reverb. Total sound kill except high-frequency isolation ring."
+      }
+    },
+    {
+      "shot_id": "shot_03",
+      "beat_number": 3,
+      "beat_name": "The Malicious Grant: Solitary Indulgence",
+      "engine_phase": "grant",
+      "timing": {
+        "start_seconds": 7.5,
+        "end_seconds": 13.0,
+        "duration_seconds": 5.5,
+        "timecode_in": "01:00:07:12",
+        "timecode_out": "01:00:13:00",
+        "frame_in": 180,
+        "frame_out": 312
+      },
+      "cinematography": {
+        "lens_focal_length": "50mm normal lens",
+        "camera_angle": "Waist-height frontal medium shot, camera locked on Maya",
+        "lighting_source": "Top-down cone of tungsten light illuminating white frosting on silver cake server",
+        "sensory_grounding": "Blade slicing through dense crumb, heavy dollop of buttercream frosting dropping onto porcelain plate with soft wet thud"
+      },
+      "shot_variable": "Frontal medium shot, 50mm lens, waist-height. Maya sits alone in the cone of overhead tungsten light. She holds a heavy stainless-steel cake knife, carving a disproportionately large slice of cake. Friends remain frozen in dark periphery. Her sharp chin tilts downward, eyes fixed on the glossy white frosting.",
+      "motion_prompt": "Steady locked shot. Maya cuts deeply through the cake, lifting a huge slice onto a porcelain plate. She takes a preliminary bite from a fork, lips parting in brief, quiet satisfaction.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_05_cake_cut",
+          "filename": "knife_slice_dense_cake.wav",
+          "timestamp_seconds": 8.0,
+          "duration_seconds": 1.5,
+          "track_layer": "A2_Foley",
+          "description": "Tactile dull drag of steel blade slicing through dense moist sponge cake."
+        },
+        {
+          "cue_id": "cue_06_plate_drop",
+          "filename": "plate_clink_wet_frosting.wav",
+          "timestamp_seconds": 10.2,
+          "duration_seconds": 1.0,
+          "track_layer": "A2_Foley",
+          "description": "Ceramic clink of fork landing, heavy wet slap of buttercream frosting."
+        },
+        {
+          "cue_id": "cue_07_first_chew",
+          "filename": "soft_chew_swallow.wav",
+          "timestamp_seconds": 11.5,
+          "duration_seconds": 1.5,
+          "track_layer": "A2_Foley",
+          "description": "Quiet, isolated mouth chew and single gentle swallow in dead room tone."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Green",
+        "name": "Beat 03: The First Bite",
+        "note": "Transition from curious calm into mechanical acceleration."
+      }
+    },
+    {
+      "shot_id": "shot_04",
+      "beat_number": 4,
+      "beat_name": "Visceral Decay: Involuntary Motor Compulsion",
+      "engine_phase": "visceral_decay",
+      "timing": {
+        "start_seconds": 13.0,
+        "end_seconds": 18.5,
+        "duration_seconds": 5.5,
+        "timecode_in": "01:00:13:00",
+        "timecode_out": "01:00:18:12",
+        "frame_in": 312,
+        "frame_out": 444
+      },
+      "cinematography": {
+        "lens_focal_length": "85mm telephoto portrait lens",
+        "camera_angle": "Slight high-angle tight medium close-up, Dutch tilt 8 degrees clockwise",
+        "lighting_source": "Harsh overhead tungsten casting stark black shadows into eye sockets, greasy white sheen on lips and chin",
+        "sensory_grounding": "Forearm tendons straining under wool sleeves, fingers clutching silver fork white-knuckled, frosting smeared across corner of mouth"
+      },
+      "shot_variable": "Tight medium close-up, 85mm lens, slight high-angle Dutch tilt 8 degrees. Maya shoveling cake into her mouth with mechanical rapidity. Frosting smears across her cheek and lower lip. Tendons in her wrist and neck strain taut. Her wide eyes convey mounting horror while her jaw chews relentlessly without pausing.",
+      "motion_prompt": "Rapid, jerky camera micro-shake. Maya's hand moves autonomously, stabbing the fork into the cake and forcing mass into her mouth. Her jaw chews furiously, saliva glistening, eyes wide and desperate, attempting to pull her hand away but failing.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_08_frenzied_fork",
+          "filename": "rapid_metal_fork_scraping_porcelain.wav",
+          "timestamp_seconds": 13.2,
+          "duration_seconds": 2.5,
+          "track_layer": "A2_Foley",
+          "description": "Harsh high-frequency screech of fork tines scraping frantically against glazed porcelain."
+        },
+        {
+          "cue_id": "cue_09_wet_chew",
+          "filename": "heavy_squelch_wet_chewing_loop.wav",
+          "timestamp_seconds": 14.5,
+          "duration_seconds": 4.0,
+          "track_layer": "A2_Foley",
+          "description": "Amplified, hyper-tactile wet squelching of thick sponge cake and shortening frosting in mouth."
+        },
+        {
+          "cue_id": "cue_10_heartbeat_rise",
+          "filename": "muffled_internal_heartbeat_85bpm.wav",
+          "timestamp_seconds": 13.0,
+          "duration_seconds": 5.5,
+          "track_layer": "A3_SFX",
+          "description": "Deep thumping internal cardiac pulse filtering into the mix, accelerating."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Orange",
+        "name": "Beat 04A: Compulsive Feeding",
+        "note": "Ramping foley volume. Metal screech and wet squelch layered over rising pulse."
+      }
+    },
+    {
+      "shot_id": "shot_05",
+      "beat_number": 4,
+      "beat_name": "Visceral Decay: Sensory Choke & Mechanical Swallowing",
+      "engine_phase": "visceral_decay",
+      "timing": {
+        "start_seconds": 18.5,
+        "end_seconds": 24.5,
+        "duration_seconds": 6.0,
+        "timecode_in": "01:00:18:12",
+        "timecode_out": "01:00:24:12",
+        "frame_in": 444,
+        "frame_out": 588
+      },
+      "cinematography": {
+        "lens_focal_length": "100mm macro lens",
+        "camera_angle": "Low-angle extreme close-up of throat and lower jaw, canted 15 degrees",
+        "lighting_source": "Hard tungsten key light accentuating beads of cold sweat on throat and lard sheen on teeth",
+        "sensory_grounding": "Enamel teeth grinding against metal tines, cold congealed fat coating tongue, throat muscles visibly rippling in painful involuntary peristalsis"
+      },
+      "shot_variable": "Extreme macro close-up, 100mm lens, low-angle. Focus racked to Maya's throat and strained jaw. Throat muscles bulge as a massive bolus of dense sponge is forced down esophagus. Upper lip glistens with cold sweat. Teeth grind audibly against silver fork. Yellow wool knitted collar stretched tight around neck.",
+      "motion_prompt": "Slow macro push on the throat. Esophageal muscles contract in an exaggerated, painful swallow. A single tear tracks through frosting on the jawline. Maya's lips shudder as her breath is squeezed out.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_11_enamel_scrape",
+          "filename": "teeth_enamel_grate_metal.wav",
+          "timestamp_seconds": 18.8,
+          "duration_seconds": 1.2,
+          "track_layer": "A2_Foley",
+          "description": "Bone-dry, sickening scrape of front incisor enamel rubbing against stainless steel fork."
+        },
+        {
+          "cue_id": "cue_12_choke_swallow",
+          "filename": "deep_choked_esophagus_swallow.wav",
+          "timestamp_seconds": 20.5,
+          "duration_seconds": 2.2,
+          "track_layer": "A2_Foley",
+          "description": "Visceral, heavy wet contraction of throat muscles forcing down dry dense cake mass."
+        },
+        {
+          "cue_id": "cue_13_sub_tension",
+          "filename": "sub_infrasound_swell.wav",
+          "timestamp_seconds": 19.0,
+          "duration_seconds": 5.5,
+          "track_layer": "A3_SFX",
+          "description": "Intense 32Hz infrasound wave swelling to peak loudness before the cut."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Red",
+        "name": "Beat 04B: Visceral Throat Choke",
+        "note": "Climax of sensory disgust. Infrasound swell cuts abruptly at 24.5s."
+      }
+    },
+    {
+      "shot_id": "shot_06",
+      "beat_number": 5,
+      "beat_name": "The Infinite Trap: The Reset",
+      "engine_phase": "infinite_trap",
+      "timing": {
+        "start_seconds": 24.5,
+        "end_seconds": 30.0,
+        "duration_seconds": 5.5,
+        "timecode_in": "01:00:24:12",
+        "timecode_out": "01:00:30:00",
+        "frame_in": 588,
+        "frame_out": 720
+      },
+      "cinematography": {
+        "lens_focal_length": "35mm prime lens",
+        "camera_angle": "Eye-level medium shot matching Shot 01 framing exactly",
+        "lighting_source": "Instantaneous snap from bleak shadow to warm flickering orange candle flame and 40W bulb",
+        "sensory_grounding": "Sudden blast of warm room air, grease instantly vanished from lips, pristine unblemished icing reforming"
+      },
+      "shot_variable": "Medium shot, 35mm lens, eye-level. Matching Shot 01 composition. Maya gasps, hands suddenly resting empty on the table. The greasy empty platter instantly snaps into a fully reformed, pristine vanilla birthday cake with a single, brightly burning candle flame. Background friends unfreeze mid-laugh, clapping joyfully as if nothing happened.",
+      "motion_prompt": "Maya's chest heaves in a desperate gasp. In a single frame flash, the cake reforms instantly with a dancing lit candle flame. Maya looks down in dawning, paralyzing horror as her lips begin to involuntarily purse again.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_14_final_swallow",
+          "filename": "dry_gasp_breath_intake.wav",
+          "timestamp_seconds": 24.6,
+          "duration_seconds": 1.0,
+          "track_layer": "A2_Foley",
+          "description": "Violent gasp of air through parted lips, sudden release of jaw tension."
+        },
+        {
+          "cue_id": "cue_15_reality_snap",
+          "filename": "reality_whip_snap_pop.wav",
+          "timestamp_seconds": 26.0,
+          "duration_seconds": 0.4,
+          "track_layer": "A3_SFX",
+          "description": "Hyper-sharp whip snap and temporal pop as reality resets."
+        },
+        {
+          "cue_id": "cue_16_party_unfreeze",
+          "filename": "party_room_laughter_surge.wav",
+          "timestamp_seconds": 26.1,
+          "duration_seconds": 3.9,
+          "track_layer": "A1_Ambience",
+          "description": "Instant burst of cheerful chatter, laughing voices, and rhythmic party applause."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Magenta",
+        "name": "Beat 05: The Infinite Reset",
+        "note": "Sharp reality snap at 26.0s. Laughter surges back. Loop restarts."
+      }
+    }
+  ]
+}
