@@ -21,3 +21,4 @@ Timecode In,Timecode Out,Name,Comment,Color,Duration
 "01:00:24:14","01:00:25:14","Foley: cue_14_final_swallow","[A2_Foley] dry_gasp_breath_intake.wav: Violent gasp of air through parted lips, sudden release of jaw tension.","Cyan","00:00:00:01"
 "01:00:26:00","01:00:26:10","Foley: cue_15_reality_snap","[A3_SFX] reality_whip_snap_pop.wav: Hyper-sharp whip snap and temporal pop as reality resets.","Cyan","00:00:00:01"
 "01:00:26:02","01:00:30:00","Foley: cue_16_party_unfreeze","[A1_Ambience] party_room_laughter_surge.wav: Instant burst of cheerful chatter, laughing voices, and rhythmic party applause.","Cyan","00:00:00:01"
+"01:00:30:00","01:00:30:00","LOOP SEAM: RESET POINT","Infinite Loop Seam: Seamless cut back to 01:00:00:00 for YouTube Shorts/TikTok (>110% APV)","Magenta","00:00:00:01"

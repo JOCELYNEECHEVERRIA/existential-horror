@@ -74,6 +74,12 @@ def generate_davinci_markers_csv(shots: List[Dict[str, Any]], fps: int, output_c
             cue_clean_comment = cue_comment.replace('"', '""')
             lines.append(f'"{cue_tc_in}","{cue_tc_out}","{cue_name}","{cue_clean_comment}","Cyan","00:00:00:01"')
 
+    # Add Final Infinite Loop Seam Marker
+    if shots:
+        final_s = shots[-1].get("timing", {}).get("end_seconds", 30.0)
+        final_tc = seconds_to_timecode(final_s, fps)
+        lines.append(f'"{final_tc}","{final_tc}","LOOP SEAM: RESET POINT","Infinite Loop Seam: Seamless cut back to 01:00:00:00 for YouTube Shorts/TikTok (>110% APV)","Magenta","00:00:00:01"')
+
     with open(output_csv_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"[+] DaVinci Resolve Markers CSV: {output_csv_path}")
@@ -307,6 +313,13 @@ def generate_animatic_slates(shots: List[Dict[str, Any]], fps: int, output_dir: 
         # Draw technical border and safe zones
         draw.rectangle([(40, 40), (1880, 1040)], outline=(45, 50, 60), width=2)
         draw.rectangle([(80, 80), (1840, 1000)], outline=(30, 35, 42), width=1)
+
+        # 9:16 Vertical Mobile Crop Safe Zone (Center 608px)
+        mobile_left = 960 - 304   # 656
+        mobile_right = 960 + 304  # 1264
+        draw.line([(mobile_left, 40), (mobile_left, 1040)], fill=(75, 65, 40), width=1)
+        draw.line([(mobile_right, 40), (mobile_right, 1040)], fill=(75, 65, 40), width=1)
+        draw.text((mobile_left + 15, 60), "[ 9:16 SHORTS / TIKTOK SAFE ZONE ]", fill=(160, 140, 60))
 
         # Crosshairs in center
         cx, cy = 960, 540

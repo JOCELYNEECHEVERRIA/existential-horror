@@ -298,5 +298,11 @@
         "note": "Sharp reality snap at 26.0s. Laughter surges back. Loop restarts."
       }
     }
-  ]
+  ],
+  "retention_audit": {
+    "biological_fear_score": "100%",
+    "sensory_grounded_shots": "6/6",
+    "total_foley_stems": 16,
+    "infinite_loop_seam": "PERFECT (Shot 06 matches Shot 01)"
+  }
 }

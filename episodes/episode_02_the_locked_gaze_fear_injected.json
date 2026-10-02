@@ -1,0 +1,78 @@
+{
+  "$schema_version": "2.0.0",
+  "episode_metadata": {
+    "episode_id": "episode_02_the_locked_gaze",
+    "series_title": "Existential Horror Anthology",
+    "episode_number": 2,
+    "episode_title": "The Locked Gaze",
+    "logline": "A boy wishes his mirror reflection would blink first; when it does, his eyes refuse to close again.",
+    "technical_specifications": {
+      "aspect_ratio": "16:9",
+      "resolution": "3840x2160",
+      "fps": 24,
+      "total_duration_seconds": 30.0,
+      "audio_sample_rate_hz": 48000,
+      "timecode_start": "01:00:00:00"
+    },
+    "narrative_engine": {
+      "spark": "1. The Relatable Spark: An innocent micro-sin or everyday intrusive thought.",
+      "malicious_grant": "2. The Malicious Grant: Reality bends to fulfill the wish with literal malice.",
+      "visceral_decay": "3. The Visceral Decay: Tactile, mechanical sensory torture and anatomical breakdown.",
+      "infinite_trap": "4. The Infinite Trap: The sudden realization that the task resets the loop forever."
+    },
+    "fear_injected": true
+  },
+  "anchors": {
+    "style_anchor": "Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion",
+    "character_anchor": "Protagonist, 20s, specific distinguishing physical traits, tactile wardrobe details",
+    "environment_anchor": "Specific tactile environment, architectural textures, precise single light source"
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "beat_number": 1,
+      "beat_name": "The Spark",
+      "engine_phase": "spark",
+      "timing": {
+        "start_seconds": 0.0,
+        "end_seconds": 4.0,
+        "duration_seconds": 4.0,
+        "timecode_in": "01:00:00:00",
+        "timecode_out": "01:00:04:00",
+        "frame_in": 0,
+        "frame_out": 96
+      },
+      "cinematography": {
+        "lens_focal_length": "35mm prime lens",
+        "camera_angle": "Eye-level medium shot",
+        "lighting_source": "Warm flickering candle flame 10 inches from chin, contrasting against cold 40W tungsten overhead fill",
+        "sensory_grounding": "tiny droplet of saliva catching flame light on lower lip"
+      },
+      "shot_variable": "Eye-level medium shot, 35mm prime lens. Subject under Warm flickering candle flame 10 inches from chin, contrasting against cold 40W tungsten overhead fill. Tactile detail: tiny droplet of saliva catching flame light on lower lip.",
+      "motion_prompt": "Subtle slow forward camera push-in focusing on micro-tension.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_shot_01_01",
+          "filename": "party_room_tone_chatter.wav",
+          "timestamp_seconds": 0.0,
+          "duration_seconds": 2.5,
+          "track_layer": "A1_Ambience",
+          "description": "Subdued party chatter, gentle applause."
+        },
+        {
+          "cue_id": "cue_shot_01_02",
+          "filename": "candle_blow_exhale.wav",
+          "timestamp_seconds": 1.5,
+          "duration_seconds": 2.5,
+          "track_layer": "A2_Foley",
+          "description": "Focused exhale hiss through pursed lips, candle fizzle."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Yellow",
+        "name": "Beat 01: The Spark",
+        "note": "Cut point and sound transition instructions."
+      }
+    }
+  ]
+}

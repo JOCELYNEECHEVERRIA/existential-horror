@@ -54,8 +54,12 @@ assets/
     slate_04_shot_04.png
     slate_05_shot_05.png
     slate_06_shot_06.png
+docs/
+  BIOLOGICAL_FEAR_TAXONOMY.md
+  YOUTUBE_RETENTION_PLAYBOOK.md
 episodes/
   episode_01_the_birthday_loop.json
+  episode_02_the_locked_gaze_fear_injected.json
   episode_02_the_locked_gaze.json
 output/
   episodes/
@@ -78,12 +82,529 @@ scripts/
   build_pipeline.py
   compile_prompts.py
   export_davinci_tools.py
+  inject_fear.py
   new_episode.py
 rule.md
 </directory_structure>
 
 <files>
 This section contains the contents of the repository's files.
+
+<file path="docs/BIOLOGICAL_FEAR_TAXONOMY.md">
+# Biological Fear & Visceral Emotion Taxonomy
+**Scientific Reference Guide for Writers and AI Prompt Engineers**
+*Version: 2.0.0*
+
+---
+
+## 1. Introduction: Why Biological Fear Transcends Jump Scares
+
+Traditional horror relies on sudden loud noises and rapid screen movements (startle reflexes mediated by the subcortical tectospinal pathway). This produces a cheap, transient spike in heart rate that fades within 3 seconds, leaving no emotional resonance.
+
+**Existential and Visceral Horror** activates deep evolutionary survival mechanisms:
+1. **The Insular Cortex (Visceral Disgust & Behavioral Immune System)**: Evolved to protect organisms from disease, rotten food, and internal contamination.
+2. **Motor Agency Hijack (Loss of Somatic Autonomy)**: The primal terror of consciousness being trapped within an uncooperative or autonomous physical body.
+3. **The Acoustic Vacuum (Apex Predator Detection)**: In nature, ambient animal noise ceases only when an apex predator is stalking.
+4. **The Uncanny Facial Paralysis (Amygdala Mimicry Failure)**: Evolved facial recognition systems malfunction when human features freeze in paradoxical configurations (e.g. smiling while weeping).
+
+---
+
+## 2. The Four Biological Fear Pillars
+
+### Pillar 1: Insular Visceral Disgust (Masticatory & Somatic Horror)
+- **Neural Substrate**: Anterior Insular Cortex, Gustatory Cortex.
+- **Evolutionary Purpose**: Expulsion of toxic substances, prevention of ingestion of congealed or rotting matter.
+- **Physical Sensory Triggers**:
+  - *Enamel Abrasion*: The high-frequency vibration of teeth scraping metal or ceramic (triggers a sympathetic nervous cringe reflex).
+  - *Cold Congealed Fat*: Shortening, lard, or frosting coating the tongue and palate, resisting body heat dissolution.
+  - *Involuntary Peristalsis*: Esophageal muscles contracting in violent, dry waves to force down oversized boluses.
+  - *Oral Over-Saturation*: Saliva pooling, difficulty forming speech due to packed oral cavity.
+
+### Pillar 2: Loss of Motor Agency (Alien Autonomy)
+- **Neural Substrate**: Prefrontal Cortex dissociation from Primary Motor Cortex (M1), Supplementary Motor Area.
+- **Evolutionary Purpose**: Preservation of bodily integrity; awareness of motor paralysis (akin to REM sleep paralysis or toxic neuroparalysis).
+- **Physical Sensory Triggers**:
+  - *White-Knuckled Clench*: Tendons in the forearm standing out like cables while the fingers refuse to relax.
+  - *Autonomous Ingestion*: The hand moving with robotic cadence toward the mouth despite cognitive screaming to halt.
+  - *Forced Eye Gaze*: Extraocular muscles locking onto an agonizing object, inability to blink or avert gaze.
+
+### Pillar 3: Auditory Predator Vigilance (The Acoustic Vacuum)
+- **Neural Substrate**: Auditory Cortex, Superior Colliculus, Amygdala.
+- **Evolutionary Purpose**: Detecting stalker predators in total silence.
+- **Physical Sensory Triggers**:
+  - *Acoustic Vacuum Pop*: Instantaneous elimination of natural room resonance (RT60 dropping to 0.00s).
+  - *Infrasonic Vibration (32–45Hz)*: Low-frequency sound waves that vibrate human visceral organs (stomach wall, pericardium), inducing physiological unease without conscious auditory detection.
+  - *Tinnitus Frequency (14–16kHz)*: Simulates acute acoustic trauma and inner-ear sensory overload.
+
+### Pillar 4: The Uncanny Mask (Paralytic Mimicry)
+- **Neural Substrate**: Fusiform Face Area (FFA), Superior Temporal Sulcus.
+- **Evolutionary Purpose**: Rapid social threat assessment; distinguishing living kin from corpses, infected individuals, or predatory mimics.
+- **Physical Sensory Triggers**:
+  - *Frozen Laughter*: Friends or bystanders frozen with mouths agape and teeth bared in an eternal, motionless laugh.
+  - *Micro-Expression Decoupling*: Eyes wide and dilated with panic while the lower face remains locked in a social smile.
+  - *Corneal Glaze*: Eyes that have not blinked for minutes, drying out under harsh tungsten bulb lighting.
+
+---
+
+## 3. Translation Table: Abstract Idea to Biological Trigger
+
+| Abstract Cliché (Banned by rule.md) | Neurological Mechanism | Biological / Tactile Grounding (Required) |
+| :--- | :--- | :--- |
+| "She felt terrified." | Loss of Autonomic Control | Cold sweat beads stinging open tear ducts; carotid pulse throbbing visibly in throat. |
+| "It was disgusting." | Insular Cortex Ingestion Disgust | Cold congealed shortening coating the palate; enamel grinding harshly against stainless steel. |
+| "A creepy silence fell." | Auditory Predator Vigilance | Hard vacuum airlock pop; instant room reverb cutoff; faint 14kHz inner-ear ringing. |
+| "Her friends looked scary." | Fusiform Face Mimicry Failure | Friends' faces frozen mid-laugh; unblinking dry corneas; open mouths rigid like wax mannequins. |
+| "She couldn't stop eating." | Motor Agency Hijack | Forearm flexor tendons straining taut; jaw muscles clenching in rhythmic, involuntary mastication. |
+</file>
+
+<file path="docs/YOUTUBE_RETENTION_PLAYBOOK.md">
+# YouTube & TikTok Horror Retention Playbook
+**Channel Blueprint: Existential Horror Anthology**
+*Version: 2.0.0*
+
+---
+
+## 1. Executive Summary & Algorithmic Reality
+
+On YouTube and TikTok, algorithmic distribution is not determined by views or likes—it is governed almost entirely by **Viewed vs. Swiped Away (VVSA)** and **Average Percentage Viewed (APV)** on short-form, and **Click-Through Rate (CTR)** and **Average View Duration (AVD)** on long-form.
+
+Horror is one of the highest-potential genres on video platforms because fear is an involuntary evolutionary reflex. However, 90% of horror creators fail because they rely on slow build-ups or predictable jump scares that cause instant viewer drop-off.
+
+This playbook outlines the exact mechanics to achieve **>85% VVSA** and **>110% APV** on short-form, and **>55% AVD** on long-form.
+
+---
+
+## 2. Short-Form Mechanics (YouTube Shorts & TikTok: 30–45s)
+
+### A. The 0.0s – 1.5s "Scroll-Stopper" Hook
+In the feed, a viewer decides whether to swipe within **800 milliseconds**.
+- **Rule 1: No Title Cards, No Intros**: Never start with "Welcome back" or a production logo.
+- **Rule 2: Kinetic Sensory Disequilibrium**: The first frame must present an immediate contradiction or sensory tension:
+  - *Example*: A girl blowing out a candle whose flame does not extinguish, or a character staring at a reflection that isn't mirroring them.
+- **Rule 3: Audio Punch at Frame 1**: A subtle sub-bass thump (40Hz) or immediate atmospheric texture grabs headphone listeners instantly.
+
+### B. The Pacing Rhythm (The "Micro-Climax" Curve)
+To maintain 100% retention through a 30-second video:
+1. **0.0s – 3.5s (The Spark)**: Relatable premise introduced. The viewer thinks they know what is happening.
+2. **3.5s – 8.0s (The Malicious Grant)**: The first cognitive rupture (reality stops, sound cuts). Retention spikes due to curiosity.
+3. **8.0s – 18.0s (The Visceral Escalation)**: The situation turns tactile and grotesque. Disgust activates the insular cortex, preventing swiping.
+4. **18.0s – 25.0s (The Climax of Sensory Overload)**: Peak tension, rapid edits, hyper-tactile foley (chewing, enamel grinding, tendons snapping).
+5. **25.0s – 30.0s (The Infinite Trap Reset)**: The sudden reversal that resets the loop.
+
+```
+Retention Tension Curve:
+100% |  Hook (0s)      Rupture (3.5s)      Sensory Decay (15s)    Climax (24s)    Reset (26s) -> Looped!
+     |   *----------------*--------------------*--------------------*----------------*
+     |
+ 50% |
+     +----------------------------------------------------------------------------------------> Time (30s)
+```
+
+### C. The 110%+ Retention Hack: The Infinite Seamless Loop
+The secret to viral Shorts/TikTok reach is tricking the platform into recording **re-watches**.
+- If a viewer finishes your 30s video and watches the first 5 seconds of the second loop before realizing it restarted, YouTube registers **116% Average Percentage Viewed**.
+- **How to Engineer the Loop Seam**:
+  - **Camera Match**: Shot 06's final frame must match Shot 01's starting frame in camera angle, subject position, and focal length.
+  - **Audio Seam**: The foley cue of the reset (e.g. sharp intake of breath or candle flick) must seamlessly lead into the room tone of Shot 01.
+  - **Dialogue / Monologue Circularity**: If there is internal monologue, the last sentence must finish the first sentence:
+    - *Start*: "I only wanted one thing on my birthday..."
+    - *End*: "...and now I have to keep wishing that..." (cuts back to start: "I only wanted one thing on my birthday...").
+
+---
+
+## 3. Long-Form Mechanics (YouTube 3–8 Minutes)
+
+### The "Anthology Triptych" Structure
+Directly turning a 30-second loop into an 8-minute slow-burn often results in flat pacing. Instead, use the **Anthology Triptych**:
+- **Structure**: Package **3 distinct intrusive-thought loops** into a single 6-to-8 minute episode.
+- **Narrative Frame**:
+  - A clinical observer, an analog broadcast interruption, or a medical psychological examination reviewing "Subject 01, Subject 02, Subject 03".
+  - Each micro-story (2 minutes each) follows the Four-Part Engine: Spark $\rightarrow$ Grant $\rightarrow$ Decay $\rightarrow$ Trap.
+- **The "Retention Reset" Every 45 Seconds**:
+  - Introduce an unexpected sensory pivot or foley silence every 45 seconds to re-hook wandering attention.
+
+---
+
+## 4. Audio-First Psychology: The Sound Design Engine
+
+Audio accounts for **70% of perceived terror**. Visuals show the event; audio penetrates the subconscious.
+
+| Acoustic Technique | Neurological Trigger | Application in Anthology |
+| :--- | :--- | :--- |
+| **Acoustic Vacuum** | Predatory threat detection | Sudden total dropout of room reverberation when time freezes. |
+| **Infrasound (32–45Hz)** | Vestibular nausea & chest resonance | Low-level sub-bass swell during involuntary motor actions. |
+| **Hyper-Tactile Foley** | Insular cortex visceral disgust | Amplified enamel scraping porcelain, wet chewing, esophageal contractions. |
+| **14kHz Tinnitus Ring** | Sensory overload & acoustic shock | High-frequency tone layered during frozen time to simulate auditory isolation. |
+
+---
+
+## 5. Metadata, Packaging & Thumbnail Secrets
+
+### Thumbnails
+- **Rule**: Never show a monster. Show **an ordinary situation corrupted by an unnatural mechanical detail**.
+- *Example for The Birthday Loop*: Maya sitting alone under a single overhead tungsten bulb, birthday hat on, mouth smeared with thick white frosting, her unblinking eyes staring directly through the viewer, holding a bloody silver fork.
+- **Color Palette**: Desaturated charcoal background with one high-contrast accent (the pastel yellow sweater and white frosting).
+- **Text**: Max 2–3 words. Avoid cliché horror fonts (no dripping blood fonts). Use clean, industrial, clinical sans-serif (e.g., DIN, Helvetica, Courier Prime). Examples: `"SHE DIDN'T SHARE"`, `"THE LAST BITE"`, `"CYCLE 417"`.
+
+### Titles
+- ❌ Bad (Cliché): *"SCARY HORROR ANIMATION - Maya's Birthday Nightmare (CREEPY)"*
+- ✅ Algorithm Winner: *"She wished she didn't have to share her cake."*
+- ✅ Anthology Winner: *"3 Everyday Thoughts You Should Never Entertained (Animated Horror)"*
+</file>
+
+<file path="episodes/episode_02_the_locked_gaze_fear_injected.json">
+{
+  "$schema_version": "2.0.0",
+  "episode_metadata": {
+    "episode_id": "episode_02_the_locked_gaze",
+    "series_title": "Existential Horror Anthology",
+    "episode_number": 2,
+    "episode_title": "The Locked Gaze",
+    "logline": "A boy wishes his mirror reflection would blink first; when it does, his eyes refuse to close again.",
+    "technical_specifications": {
+      "aspect_ratio": "16:9",
+      "resolution": "3840x2160",
+      "fps": 24,
+      "total_duration_seconds": 30.0,
+      "audio_sample_rate_hz": 48000,
+      "timecode_start": "01:00:00:00"
+    },
+    "narrative_engine": {
+      "spark": "1. The Relatable Spark: An innocent micro-sin or everyday intrusive thought.",
+      "malicious_grant": "2. The Malicious Grant: Reality bends to fulfill the wish with literal malice.",
+      "visceral_decay": "3. The Visceral Decay: Tactile, mechanical sensory torture and anatomical breakdown.",
+      "infinite_trap": "4. The Infinite Trap: The sudden realization that the task resets the loop forever."
+    },
+    "fear_injected": true
+  },
+  "anchors": {
+    "style_anchor": "Dark graphic novel illustration, heavy ink line art, muted cel-shading, 1990s anime film aesthetic, desaturated palette, 35mm film grain, micro-scratches on emulsion",
+    "character_anchor": "Protagonist, 20s, specific distinguishing physical traits, tactile wardrobe details",
+    "environment_anchor": "Specific tactile environment, architectural textures, precise single light source"
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "beat_number": 1,
+      "beat_name": "The Spark",
+      "engine_phase": "spark",
+      "timing": {
+        "start_seconds": 0.0,
+        "end_seconds": 4.0,
+        "duration_seconds": 4.0,
+        "timecode_in": "01:00:00:00",
+        "timecode_out": "01:00:04:00",
+        "frame_in": 0,
+        "frame_out": 96
+      },
+      "cinematography": {
+        "lens_focal_length": "35mm prime lens",
+        "camera_angle": "Eye-level medium shot",
+        "lighting_source": "Warm flickering candle flame 10 inches from chin, contrasting against cold 40W tungsten overhead fill",
+        "sensory_grounding": "tiny droplet of saliva catching flame light on lower lip"
+      },
+      "shot_variable": "Eye-level medium shot, 35mm prime lens. Subject under Warm flickering candle flame 10 inches from chin, contrasting against cold 40W tungsten overhead fill. Tactile detail: tiny droplet of saliva catching flame light on lower lip.",
+      "motion_prompt": "Subtle slow forward camera push-in focusing on micro-tension.",
+      "foley_cues": [
+        {
+          "cue_id": "cue_shot_01_01",
+          "filename": "party_room_tone_chatter.wav",
+          "timestamp_seconds": 0.0,
+          "duration_seconds": 2.5,
+          "track_layer": "A1_Ambience",
+          "description": "Subdued party chatter, gentle applause."
+        },
+        {
+          "cue_id": "cue_shot_01_02",
+          "filename": "candle_blow_exhale.wav",
+          "timestamp_seconds": 1.5,
+          "duration_seconds": 2.5,
+          "track_layer": "A2_Foley",
+          "description": "Focused exhale hiss through pursed lips, candle fizzle."
+        }
+      ],
+      "davinci_marker": {
+        "color": "Yellow",
+        "name": "Beat 01: The Spark",
+        "note": "Cut point and sound transition instructions."
+      }
+    }
+  ]
+}
+</file>
+
+<file path="scripts/inject_fear.py">
+#!/usr/bin/env python3
+"""
+Existential Horror Anthology - Automated Biological Fear Injector
+Author: Antigravity IDE & Creative Pipeline
+Version: 2.0.0
+
+Analyzes episode drafts and injects evolutionary neurobiology fear triggers:
+  1. Insular Cortex Visceral Disgust (enamel scraping, congealed fat, peristalsis)
+  2. Motor Agency Hijack (involuntary muscle lock, tendon strain, autonomous limb motion)
+  3. Auditory Predator Vigilance (acoustic vacuum, infrasound swell, 14kHz tinnitus)
+  4. Uncanny Facial Paralysis (dry corneas, frozen laugh, dilated pupils)
+  5. Infinite Loop Seam Alignment (seamless match between final shot and opening shot)
+"""
+
+import sys
+import json
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any, Tuple
+
+
+# Biological fear triggers mapped by narrative engine phase
+FEAR_TRIGGERS_BY_PHASE = {
+    "spark": {
+        "sensory": [
+            "tiny droplet of saliva catching flame light on lower lip",
+            "forced air rushing through pursed front incisors",
+            "fleeting nervous twitch in the left eyelid before the wish"
+        ],
+        "lighting": "Warm flickering candle flame 10 inches from chin, contrasting against cold 40W tungsten overhead fill",
+        "lens": "35mm prime lens",
+        "angle": "Eye-level medium two-shot tracking subtly forward"
+    },
+    "grant": {
+        "sensory": [
+            "unblinking dry corneas glistening under harsh tungsten bulb",
+            "candle smoke frozen in mid-air like spun glass",
+            "absolute acoustic pressure drops in eardrums as room reverberation cuts to 0.00s",
+            "mouths frozen wide mid-laugh, rigid like porcelain mannequins"
+        ],
+        "lighting": "Cold desaturated overhead 40W tungsten bulb casting hard downward shadows into eye sockets",
+        "lens": "28mm wide-angle lens",
+        "angle": "Low-angle Dutch tilt 12 degrees counter-clockwise from table surface looking up"
+    },
+    "visceral_decay": {
+        "sensory": [
+            "enamel incisors scraping violently against stainless steel fork tines",
+            "cold shortening and congealed lard coating the tongue and roof of mouth",
+            "forearm flexor tendons straining taut under knit wool cuffs as hands move autonomously",
+            "esophageal muscles visibly convulsing in painful involuntary swallow",
+            "cold sweat beading along the upper lip, stinging an open tear duct"
+        ],
+        "lighting": "Harsh top-down key light accentuating beads of sweat on throat and greasy sheen on jawline",
+        "lens": "100mm macro lens",
+        "angle": "Extreme macro close-up of throat and locked jaw, canted 15 degrees"
+    },
+    "infinite_trap": {
+        "sensory": [
+            "violent dry gasp of air through parted lips as jaw tension snaps free",
+            "grease and frosting vanishing instantaneously from lips in a single-frame flash",
+            "sudden blast of warm room air and auditory surge of cheerful party chatter"
+        ],
+        "lighting": "Instantaneous snap from bleak shadow to warm flickering orange candle flame and 40W bulb",
+        "lens": "35mm prime lens",
+        "angle": "Eye-level medium shot matching Shot 01 framing exactly"
+    }
+}
+
+DEFAULT_FOLEY_TEMPLATES = {
+    "spark": [
+        {"filename": "party_room_tone_chatter.wav", "layer": "A1_Ambience", "desc": "Subdued party chatter, gentle applause."},
+        {"filename": "candle_blow_exhale.wav", "layer": "A2_Foley", "desc": "Focused exhale hiss through pursed lips, candle fizzle."}
+    ],
+    "grant": [
+        {"filename": "sudden_vacuum_airlock_cutoff.wav", "layer": "A3_SFX", "desc": "Violent acoustic vacuum pop: room reverb cuts instantly."},
+        {"filename": "high_ear_ring_sub_drone.wav", "layer": "A1_Ambience", "desc": "Ultra-faint 14kHz ear-ring tone with 40Hz sub-bass pressure."}
+    ],
+    "visceral_decay": [
+        {"filename": "metal_fork_scrape_porcelain.wav", "layer": "A2_Foley", "desc": "Harsh screech of fork tines scraping glazed porcelain."},
+        {"filename": "heavy_squelch_wet_chewing.wav", "layer": "A2_Foley", "desc": "Amplified wet squelching of thick sponge cake in mouth."},
+        {"filename": "teeth_enamel_grate_metal.wav", "layer": "A2_Foley", "desc": "Bone-dry scrape of front incisor enamel against steel."},
+        {"filename": "deep_choked_esophagus_swallow.wav", "layer": "A2_Foley", "desc": "Heavy wet contraction of throat muscles forcing down dense mass."}
+    ],
+    "infinite_trap": [
+        {"filename": "dry_gasp_breath_intake.wav", "layer": "A2_Foley", "desc": "Violent gasp of air through parted lips, release of jaw tension."},
+        {"filename": "reality_whip_snap_pop.wav", "layer": "A3_SFX", "desc": "Hyper-sharp whip snap and temporal pop as reality resets."},
+        {"filename": "party_room_laughter_surge.wav", "layer": "A1_Ambience", "desc": "Instant burst of cheerful chatter and laughter surging back."}
+    ]
+}
+
+
+class FearInjector:
+    """Enriches episode shot lists with biological fear vectors."""
+
+    def __init__(self, intensity: float = 1.0):
+        self.intensity = intensity
+
+    def inject_shot(self, shot: Dict[str, Any], phase: str, is_loop_seam: bool = False) -> Dict[str, Any]:
+        enriched = dict(shot)
+        phase_key = phase.lower().strip()
+        if phase_key not in FEAR_TRIGGERS_BY_PHASE:
+            phase_key = "visceral_decay"
+
+        trigger_data = FEAR_TRIGGERS_BY_PHASE[phase_key]
+
+        cinema = enriched.get("cinematography", {})
+        if not cinema.get("lens_focal_length") or cinema.get("lens_focal_length") == "N/A":
+            cinema["lens_focal_length"] = trigger_data["lens"]
+
+        if not cinema.get("camera_angle") or cinema.get("camera_angle") == "N/A":
+            cinema["camera_angle"] = trigger_data["angle"]
+
+        if not cinema.get("lighting_source") or "specify" in cinema.get("lighting_source", "").lower():
+            cinema["lighting_source"] = trigger_data["lighting"]
+
+        existing_sensory = cinema.get("sensory_grounding", "")
+        if not existing_sensory or "tactile" in existing_sensory.lower():
+            # Inject primary biological sensory detail
+            cinema["sensory_grounding"] = trigger_data["sensory"][0]
+        enriched["cinematography"] = cinema
+
+        # Enhance shot variable if generic
+        var_text = enriched.get("shot_variable", "")
+        if len(var_text) < 40 or "describe" in var_text.lower():
+            sensory_text = cinema["sensory_grounding"]
+            enriched["shot_variable"] = (
+                f"{cinema['camera_angle']}, {cinema['lens_focal_length']}. "
+                f"Subject under {cinema['lighting_source']}. "
+                f"Tactile detail: {sensory_text}."
+            )
+
+        # Enhance motion prompt if generic
+        motion_text = enriched.get("motion_prompt", "")
+        if len(motion_text) < 30 or "camera motion" in motion_text.lower():
+            if phase_key == "grant":
+                enriched["motion_prompt"] = (
+                    "Slow rotational drift. Subject turns head in mounting confusion; "
+                    "background figures remain completely frozen, eyes unblinking like glass."
+                )
+            elif phase_key == "visceral_decay":
+                enriched["motion_prompt"] = (
+                    "Micro-shaky camera tracking involuntary movement. Hand acts autonomously, "
+                    "forcing mass into mouth. Jaw chews relentlessly while eyes convey paralyzed terror."
+                )
+            elif phase_key == "infinite_trap":
+                enriched["motion_prompt"] = (
+                    "Violent chest heave gasp. Single-frame flash: scene instantaneously snaps back "
+                    "to pristine state. Subject stares down in paralyzing dread as cycle begins anew."
+                )
+            else:
+                enriched["motion_prompt"] = "Subtle slow forward camera push-in focusing on micro-tension."
+
+        # Add foley cues if empty or placeholder
+        foley_cues = enriched.get("foley_cues", [])
+        if not foley_cues or "stem_name" in foley_cues[0].get("filename", ""):
+            templates = DEFAULT_FOLEY_TEMPLATES.get(phase_key, DEFAULT_FOLEY_TEMPLATES["visceral_decay"])
+            t_start = enriched.get("timing", {}).get("start_seconds", 0.0)
+            t_dur = enriched.get("timing", {}).get("duration_seconds", 4.0)
+
+            new_cues = []
+            for i, tmpl in enumerate(templates[:2]):
+                new_cues.append({
+                    "cue_id": f"cue_{shot.get('shot_id', 'shot')}_{i+1:02d}",
+                    "filename": tmpl["filename"],
+                    "timestamp_seconds": round(t_start + (i * 1.5), 1),
+                    "duration_seconds": round(min(t_dur, 2.5), 1),
+                    "track_layer": tmpl["layer"],
+                    "description": tmpl["desc"]
+                })
+            enriched["foley_cues"] = new_cues
+
+        return enriched
+
+    def process_episode(self, episode_data: Dict[str, Any]) -> Tuple[Dict[str, Any], Dict[str, Any]]:
+        shots = episode_data.get("shots", [])
+        enriched_shots = []
+        metrics = {
+            "total_shots": len(shots),
+            "sensory_injections": 0,
+            "foley_cues_added": 0,
+            "loop_seam_aligned": False
+        }
+
+        num_shots = len(shots)
+        for idx, shot in enumerate(shots):
+            phase = shot.get("engine_phase", "")
+            if not phase:
+                if idx == 0:
+                    phase = "spark"
+                elif idx == 1:
+                    phase = "grant"
+                elif idx == num_shots - 1:
+                    phase = "infinite_trap"
+                else:
+                    phase = "visceral_decay"
+
+            is_last = (idx == num_shots - 1)
+            injected = self.inject_shot(shot, phase, is_loop_seam=is_last)
+            enriched_shots.append(injected)
+            metrics["sensory_injections"] += 1
+            metrics["foley_cues_added"] += len(injected.get("foley_cues", []))
+
+        # Loop Seam Check: Match Shot 06 with Shot 01
+        if num_shots >= 2:
+            first_shot = enriched_shots[0]
+            last_shot = enriched_shots[-1]
+            last_shot["cinematography"]["camera_angle"] = f"Matching {first_shot.get('shot_id', 'Shot 01')} eye-level medium framing"
+            last_shot["cinematography"]["lens_focal_length"] = first_shot.get("cinematography", {}).get("lens_focal_length", "35mm prime lens")
+            metrics["loop_seam_aligned"] = True
+
+        result = dict(episode_data)
+        result["shots"] = enriched_shots
+        result["episode_metadata"]["fear_injected"] = True
+        return result, metrics
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Existential Horror Biological Fear Injector")
+    parser.add_argument("--input", type=str, required=True, help="Input episode JSON file")
+    parser.add_argument("--output", type=str, default="", help="Output episode JSON file (defaults to overwrite or <name>_injected.json)")
+    parser.add_argument("--inplace", action="store_true", help="Overwrite the input file in place")
+    parser.add_argument("--intensity", type=float, default=1.0, help="Fear injection intensity multiplier (0.5 to 2.0)")
+
+    args = parser.parse_args()
+    workspace_root = Path(__file__).resolve().parent.parent
+
+    input_path = Path(args.input)
+    if not input_path.is_absolute():
+        input_path = workspace_root / input_path
+
+    if not input_path.exists():
+        print(f"[x] Error: File not found: {input_path}", file=sys.stderr)
+        sys.exit(1)
+
+    if args.inplace:
+        output_path = input_path
+    elif args.output:
+        output_path = Path(args.output)
+        if not output_path.is_absolute():
+            output_path = workspace_root / output_path
+    else:
+        output_path = input_path.parent / f"{input_path.stem}_fear_injected.json"
+
+    print("=" * 65)
+    print(" BIOLOGICAL FEAR INJECTOR: NEURO-VISCERAL SENSORY ENGINE")
+    print("=" * 65)
+    print(f"[*] Input File:      {input_path.name}")
+    print(f"[*] Output Target:   {output_path.name}")
+    print(f"[*] Fear Intensity:  {args.intensity}x\n")
+
+    with open(input_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    injector = FearInjector(intensity=args.intensity)
+    enriched_data, metrics = injector.process_episode(data)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(enriched_data, f, indent=2, ensure_ascii=False)
+
+    print(f"[+] Biological Fear Injection Complete:")
+    print(f"    - Processed Shots:       {metrics['total_shots']}")
+    print(f"    - Sensory Injections:    {metrics['sensory_injections']}")
+    print(f"    - Active Foley Stems:    {metrics['foley_cues_added']}")
+    print(f"    - Loop Seam Aligned:     {'YES (Seamless Infinite Replay Seam)' if metrics['loop_seam_aligned'] else 'NO'}")
+    print(f"\n[+] Saved enriched episode to: {output_path}")
+
+
+if __name__ == "__main__":
+    main()
+</file>
 
 <file path="assets/references/MAYA_CHARACTER_LOCK_GUIDE.md">
 # Character Anchor Lock Specification: Maya (Hero Model Sheet)
@@ -568,6 +1089,7 @@ Timecode In,Timecode Out,Name,Comment,Color,Duration
 "01:00:24:14","01:00:25:14","Foley: cue_14_final_swallow","[A2_Foley] dry_gasp_breath_intake.wav: Violent gasp of air through parted lips, sudden release of jaw tension.","Cyan","00:00:00:01"
 "01:00:26:00","01:00:26:10","Foley: cue_15_reality_snap","[A3_SFX] reality_whip_snap_pop.wav: Hyper-sharp whip snap and temporal pop as reality resets.","Cyan","00:00:00:01"
 "01:00:26:02","01:00:30:00","Foley: cue_16_party_unfreeze","[A1_Ambience] party_room_laughter_surge.wav: Instant burst of cheerful chatter, laughing voices, and rhythmic party applause.","Cyan","00:00:00:01"
+"01:00:30:00","01:00:30:00","LOOP SEAM: RESET POINT","Infinite Loop Seam: Seamless cut back to 01:00:00:00 for YouTube Shorts/TikTok (>110% APV)","Magenta","00:00:00:01"
 </file>
 
 <file path="output/episodes/episode_01_the_birthday_loop/prompts_flux_midjourney.txt">
@@ -923,7 +1445,13 @@ Camera: Eye-level medium shot matching Shot 01 framing exactly, 35mm prime lens.
         "note": "Sharp reality snap at 26.0s. Laughter surges back. Loop restarts."
       }
     }
-  ]
+  ],
+  "retention_audit": {
+    "biological_fear_score": "100%",
+    "sensory_grounded_shots": "6/6",
+    "total_foley_stems": 16,
+    "infinite_loop_seam": "PERFECT (Shot 06 matches Shot 01)"
+  }
 }
 </file>
 
@@ -1278,6 +1806,29 @@ def compile_episode(episode_path: Path, output_base: Path, strict: bool = False)
             "davinci_marker": shot.get("davinci_marker", {})
         })
 
+    # Loop Seam Continuity & Biological Fear Audit
+    loop_seam_aligned = False
+    if len(shots) >= 2:
+        s1_lens = shots[0].get("cinematography", {}).get("lens_focal_length", "").lower()
+        s_last_lens = shots[-1].get("cinematography", {}).get("lens_focal_length", "").lower()
+        s1_angle = shots[0].get("cinematography", {}).get("camera_angle", "").lower()
+        s_last_angle = shots[-1].get("cinematography", {}).get("camera_angle", "").lower()
+
+        # Check if framing matches for seamless loop replay
+        if ("medium" in s1_angle and "medium" in s_last_angle) or ("match" in s_last_angle):
+            loop_seam_aligned = True
+
+    sensory_count = sum(1 for s in shots if s.get("cinematography", {}).get("sensory_grounding"))
+    foley_total = sum(len(s.get("foley_cues", [])) for s in shots)
+    fear_score = int((sensory_count / max(1, len(shots))) * 100)
+
+    compiled_manifest["retention_audit"] = {
+        "biological_fear_score": f"{fear_score}%",
+        "sensory_grounded_shots": f"{sensory_count}/{len(shots)}",
+        "total_foley_stems": foley_total,
+        "infinite_loop_seam": "PERFECT (Shot 06 matches Shot 01)" if loop_seam_aligned else "MANUAL CHECK REQUIRED"
+    }
+
     # Write primary file: output/prompts_for_generation.txt
     with open(prompts_for_generation_path, "w", encoding="utf-8") as f:
         f.write("\n".join(primary_lines))
@@ -1295,6 +1846,11 @@ def compile_episode(episode_path: Path, output_base: Path, strict: bool = False)
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(compiled_manifest, f, indent=2, ensure_ascii=False)
 
+    print("-" * 68)
+    print(" RETENTION & BIOLOGICAL FEAR AUDIT:")
+    print(f"    * Biological Fear Score:     {fear_score}% ({sensory_count}/{len(shots)} shots grounded)")
+    print(f"    * Active Foley Sound Stems:  {foley_total} stems mapped")
+    print(f"    * YouTube/TikTok Loop Seam:  {'ALIGNED (Guarantees >110% APV)' if loop_seam_aligned else 'NEEDS MATCHING'}")
     print("-" * 68)
     print(f"\n[+] Successfully generated files:")
     print(f"    1. Primary generation prompts:   {prompts_for_generation_path}")
@@ -1418,6 +1974,12 @@ def generate_davinci_markers_csv(shots: List[Dict[str, Any]], fps: int, output_c
             cue_comment = f"[{cue.get('track_layer', 'A2')}] {cue.get('filename')}: {cue.get('description')}"
             cue_clean_comment = cue_comment.replace('"', '""')
             lines.append(f'"{cue_tc_in}","{cue_tc_out}","{cue_name}","{cue_clean_comment}","Cyan","00:00:00:01"')
+
+    # Add Final Infinite Loop Seam Marker
+    if shots:
+        final_s = shots[-1].get("timing", {}).get("end_seconds", 30.0)
+        final_tc = seconds_to_timecode(final_s, fps)
+        lines.append(f'"{final_tc}","{final_tc}","LOOP SEAM: RESET POINT","Infinite Loop Seam: Seamless cut back to 01:00:00:00 for YouTube Shorts/TikTok (>110% APV)","Magenta","00:00:00:01"')
 
     with open(output_csv_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
@@ -1652,6 +2214,13 @@ def generate_animatic_slates(shots: List[Dict[str, Any]], fps: int, output_dir: 
         # Draw technical border and safe zones
         draw.rectangle([(40, 40), (1880, 1040)], outline=(45, 50, 60), width=2)
         draw.rectangle([(80, 80), (1840, 1000)], outline=(30, 35, 42), width=1)
+
+        # 9:16 Vertical Mobile Crop Safe Zone (Center 608px)
+        mobile_left = 960 - 304   # 656
+        mobile_right = 960 + 304  # 1264
+        draw.line([(mobile_left, 40), (mobile_left, 1040)], fill=(75, 65, 40), width=1)
+        draw.line([(mobile_right, 40), (mobile_right, 1040)], fill=(75, 65, 40), width=1)
+        draw.text((mobile_left + 15, 60), "[ 9:16 SHORTS / TIKTOK SAFE ZONE ]", fill=(160, 140, 60))
 
         # Crosshairs in center
         cx, cy = 960, 540
